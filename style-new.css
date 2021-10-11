@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(78, 155,233);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Блок хэдэров */
+.header-background{
+    /* width: 100%;
+    height: 20%; */
+    background-image: url('images/img01.jpg');
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.header{
+    color:white;
+}
+
+.header-first{
+    font-size: 36px;
+    font-weight: bold;
+    /* margin: 0; */
+}
+
+
+.header-second{
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Верхнее меню */
+
+.navigation{
+    /* position: 20%; */
+    width: 90%;
+    margin-top: 75px;
+}
+
+.navigation a{
+    color: white;
+}
+
+.navigation td{
+    padding-left: 40px ;
+    padding-right: 40px;
+    border-left: 1px solid rgb(78, 155,233);
+    margin-left: 20px;
+    text-align: center;
+    /* border: 4px solid red; */
+}
+
+.navigation td:hover{
+    background-color: rgb(78, 155,233);
+}
+
+.selected-button{
+    background-color: rgb(78, 155,233);
+}
+
+
+/* Основная часть сайта */
+/* Новости */
+
+.content{
+    margin-left: 80px;
+}
+
+.content h2{
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+    color: rgb(78, 155,233);
+}
+
+.news-info{
+    font-weight: bold;
+}
+/* Меню навигации */
+
+.search-bar{
+    background-color: rgb(236, 236, 236);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.search-fild{
+    padding-left: 10px;
+}
+
+.search-button{
+    background-color:rgb(185, 185, 185);
+    border: none;
+    border-top: 2px solid rgb(185, 185, 185);
+    border-bottom: 2px solid rgb(185, 185, 185);
+    width: 50px;
+}
+
+.contex-menu-navigation{
+    background-color: white;
+    width: 20%;
+}
+
+.contex-menu-navigation h3{
+    font-size: 28px;
+}
+
+.contex-menu-navigation p{
+    border-bottom: 1px dotted rgb(78, 155,233);
+}
+
+.contex-menu-navigation td{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Футтер */
+.foot{
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    border-top: 1px solid rgb(222, 222, 222);
+    padding: 10px 0px;
+    font-size: small;
+    color: gray;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
